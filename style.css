@@ -1,0 +1,355 @@
+body {
+    background-color: red;
+}
+.snowflake {
+    color: silver;
+    top: -50px;
+}
+
+.snowflake-animation-position {
+    font-size: 300%;
+    position: fixed;
+}
+
+.snowflake-animation {
+    animation-name: swing, spinner; 
+    animation-duration: 2s, 5s;
+    animation-iteration-count: infinite, infinite;
+    animation-timing-function: ease-in-out, linear;
+}
+
+@keyframes spinner {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 600px;
+    }
+}
+
+@keyframes swing {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(70px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.snowflake-animation-position1 {
+    animation-delay: 1000ms;
+    font-size: 200%;
+    position: fixed;
+    left: 200px;
+}
+
+.snowflake-animation1 {
+    animation-name: swing, spinner; 
+    animation-duration: 2s, 4s;
+    animation-iteration-count: infinite, infinite;
+    animation-timing-function: ease-in-out, linear;
+}
+
+@keyframes spinner {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 600px;
+    }
+}
+
+@keyframes swing {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(70px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.snowflake-animation-position2 {
+    animation-delay: 1900ms;
+    font-size: 300%;
+    position: fixed;
+    left: 300px;
+}
+
+.snowflake-animation2 {
+    animation-name: swing, spinner; 
+    animation-duration: 2s, 4s;
+    animation-iteration-count: infinite, infinite;
+    animation-timing-function: ease-in-out, linear;
+}
+
+@keyframes spinner {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 600px;
+    }
+}
+
+@keyframes swing {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(70px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.snowflake-animation-position3 {
+    animation-delay: 2300ms;
+    font-size: 200%;
+    position: fixed;
+    left: 2000px;
+}
+
+.snowflake-animation3 {
+    animation-name: swing, spinner; 
+    animation-duration: 2s, 4s;
+    animation-iteration-count: infinite, infinite;
+    animation-timing-function: ease-in-out, linear;
+}
+
+@keyframes spinner {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 600px;
+    }
+}
+
+@keyframes swing {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(70px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.snowflake-animation-position4 {
+    animation-delay: 1000ms;
+    font-size: 300%;
+    position: fixed;
+    left: 500px;
+}
+
+.snowflake-animation4 {
+    animation-name: swing, spinner; 
+    animation-duration: 2s, 4s;
+    animation-iteration-count: infinite, infinite;
+    animation-timing-function: ease-in-out, linear;
+}
+
+@keyframes spinner {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 600px;
+    }
+}
+
+@keyframes swing {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(70px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.snowflake-animation-position5 {
+    animation-delay: 100ms;
+    font-size: 200%;
+    position: fixed;
+    left: 600px;
+}
+
+.snowflake-animation5 {
+    animation-name: swing, spinner; 
+    animation-duration: 2s, 4s;
+    animation-iteration-count: infinite, infinite;
+    animation-timing-function: ease-in-out, linear;
+}
+
+@keyframes spinner {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 600px;
+    }
+}
+
+@keyframes swing {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(70px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.snowflake-animation-position6 {
+    animation-delay: 500ms;
+    font-size: 300%;
+    position: fixed;
+    left: 1700px;
+}
+
+.snowflake-animation6 {
+    animation-name: swing, spinner; 
+    animation-duration: 2s, 4s;
+    animation-iteration-count: infinite, infinite;
+    animation-timing-function: ease-in-out, linear;
+}
+
+@keyframes spinner {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 600px;
+    }
+}
+
+@keyframes swing {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(70px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.snowflake-animation-position7 {
+    animation-delay: 2900ms;
+    font-size: 200%;
+    position: fixed;
+    left: 2000px;
+}
+
+.snowflake-animation7 {
+    animation-name: swing, spinner; 
+    animation-duration: 2s, 4s;
+    animation-iteration-count: infinite, infinite;
+    animation-timing-function: ease-in-out, linear;
+}
+
+@keyframes spinner {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 600px;
+    }
+}
+
+@keyframes swing {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(70px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.snowflake-animation-position8 {
+    animation-delay: 3300ms;
+    font-size: 300%;
+    position: fixed;
+    left: 1200px;
+}
+
+.snowflake-animation8 {
+    animation-name: swing, spinner; 
+    animation-duration: 2s, 4s;
+    animation-iteration-count: infinite, infinite;
+    animation-timing-function: ease-in-out, linear;
+}
+
+@keyframes spinner {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 600px;
+    }
+}
+
+@keyframes swing {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(70px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.snowflake-animation-position9 {
+    animation-delay: 1100ms;
+    font-size: 200%;
+    position: fixed;
+    left: 1300px;
+}
+
+.snowflake-animation9 {
+    animation-name: swing, spinner; 
+    animation-duration: 2s, 4s;
+    animation-iteration-count: infinite, infinite;
+    animation-timing-function: ease-in-out, linear;
+}
+
+@keyframes spinner {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 600px;
+    }
+}
+
+@keyframes swing {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(70px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
